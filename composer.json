@@ -1,0 +1,30 @@
+{
+    "name": "laraveltools/ck",
+    "description": "A package for integrating CK Editor safely and securely in your Laravel sites",
+    "keywords": ["laravel", "ckeditor", "wysiwyg", "codetheorist"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Scott",
+            "email": "codetheorist@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Codetheorist\\Ck\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "^5.0",
+        "league/flysystem": "^1.0.8",
+        "intervention/image": "^2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8.20|~5.0",
+        "orchestra/testbench": "~3.2.4|~3.3.0|~3.4.0",
+        "mockery/mockery": "^0.9.5",
+        "hamcrest/hamcrest-php": "~1.2",
+        "league/flysystem-aws-s3-v3": "^1.0.1",
+        "laravel/browser-kit-testing": "^1.0"
+    }
+}
